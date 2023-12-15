@@ -1,0 +1,265 @@
+/* navbar  */
+
+#topnav{
+    background-color:rgb(218,172,0);
+    padding: 1% 10% ;
+
+}
+.nav-link {
+    display: block;
+  
+    color: rgb(255 255 255);
+    font-size: 18px;
+    padding-left: 25px;
+}
+#searchbox::placeholder{
+    color: white;
+}
+
+#searchbox{
+    background-color:rgb(252,195,2);
+    color: white;
+    border: 0px;
+    border-radius: 0;
+    
+    box-shadow: 5px 10px 11px 0px #00000021 ;
+
+}
+#searchbtn{
+
+    position: relative;
+    left: -48px;
+    background-color:rgb(0,190,201);
+    border: 0px;
+    border-radius: 0;
+    color: white;
+  
+
+
+}
+@media only screen and (max-width:768px){
+    #searchform{
+        margin-bottom: 30px;
+        margin-top:20px;
+        margin-left: 25px;
+        
+    }
+    @media only screen and (max-width:500px){
+        .img-fluid {
+            
+            width: 203px;
+        }
+        #topnav {
+            
+            padding: 0px;
+        }
+    }
+
+
+}
+
+/* banner  */
+#banner{
+    background-color:rgb(252,195,2);
+    padding-bottom: 50px;
+
+}
+#bannertext h1{
+    color: white;
+    font-size: 70px;
+    margin-top: 100px;
+}
+#bannertext p{
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#bannerbtn1{
+    background-color: rgb(0,190,201);
+    border:2px solid rgb(0,190,201) ;
+    color: white;
+
+}
+#bannerbtn2{
+    color: white;
+    border: 2px solid white; 
+    margin-left: 15px;
+
+}
+
+@media only screen and (max-width:1300px){
+    #bannertext h1{
+        
+        font-size: 50px;
+        
+       
+    }
+    #bbanner{
+        padding-bottom: 70px;
+    }
+}
+
+@media only screen and (max-width:900px){
+    #bannertext h1{
+        
+        font-size: 40px;
+        
+       
+    }
+    #bannerimg{
+        padding-top: 70px;
+
+    }
+}
+
+/* Service */
+
+#servicetext{ 
+    padding-top: 10%;
+    padding-bottom: 5%;
+   
+}
+#servicebtn{
+    background-color: rgb(252,195,2);
+    color: white;
+    border: 2px solid rgb(252,195,2) ;
+}
+#seviceimg{
+    margin-top:2% ;
+    padding: 5%;
+}
+
+/* countersection  */
+#countersection{
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-position: center center;
+    
+}
+
+.countericon{
+    font-size: 70px;
+}
+@media only screen and (max-width:500px){
+    .countericon{
+        font-size: 50px;
+}
+}
+/* blog */
+#blog{
+    padding-bottom: 70px;
+    padding-top: 70px;
+    font-weight: bolder;
+}
+#blog-p{
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+
+#blogtitle{
+    font-size: 50px;
+}
+
+
+
+
+
+
+.articledetail{
+    padding: 15px;
+    
+   
+    
+
+}
+.cardclass{
+    
+    box-shadow: 4px 4px 4px 4px gray;
+}
+
+
+
+
+.articledate{
+    color:rgb(0,190,201)
+
+}
+
+.artilclelink{
+    color:rgb(0,190,201)
+
+}
+@media only screen and (max-width:500px){
+    img, svg {
+       
+        margin-left: 68px;
+    }
+}
+
+/* footer  */
+#footer{
+    background-color:rgb(52,52,52);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#footer a{
+    color: white;
+    text-decoration: none;
+}
+#footerform{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#footersearchbox{
+    background-color:rgb(252,195,2) ;
+    color: white;
+    border: 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+
+}
+#footersearchsubmit{
+    background-color: rgb(0,190,201);
+    position: relative;
+    left: -10px;
+    color: white;
+    border: 0;
+    border-radius: 0;
+    padding:13px 40px ;
+
+}
+.socialicon{
+    font-size: 25px;
+    padding-left: 5px;
+   
+}
+@media only screen and (max-width:1150px){
+    #footersearchbox {
+       
+        max-width: 216px;
+    }
+}
+@media only screen and (max-width:768px){
+    #footersearchbox {
+       
+        max-width: 120px;
+    }
+}
+@media only screen and (max-width:500px){
+    #footersearchbox {
+       
+        max-width: 200px;
+    }
+    #footer{
+        padding-top: 10px;
+    }
+    #footer h4{
+        padding-top: 20px;
+    }
+}
